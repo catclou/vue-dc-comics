@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     header {
         display: flex;
         justify-content: space-around;

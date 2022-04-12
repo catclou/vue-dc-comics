@@ -18,7 +18,6 @@ export default {
     main {
         display: flex;
         background-color: #1c1c1c;
-        display: flex;
         justify-content: flex-start;
     }
 

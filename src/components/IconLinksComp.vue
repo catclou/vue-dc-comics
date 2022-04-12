@@ -18,12 +18,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
+    @import '../style/variabili.scss';
+
     div {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #0282f9;
+        background-color: $dc-blue;
     }
 
     .fake-li {

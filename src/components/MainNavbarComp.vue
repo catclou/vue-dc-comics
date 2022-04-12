@@ -23,30 +23,29 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     ul {
         display: flex;
         align-items: center;
-    }
 
-    li {
+        li {
         padding: 1rem;
         list-style: none;
         align-self: center;
         text-transform: uppercase;
         font-weight: bold;
-        
         color: black;
-    }
-
-    a:hover {
-        color: #0282f9;
-        border-bottom: 5px inset #0282f9;
+        }
     }
 
     a {
         text-decoration: none;
         color: black;
         padding-bottom: 4rem;
+
+        &:hover {
+            color: #0282f9;
+            border-bottom: 5px inset #0282f9;
+        }
     }
 </style>
