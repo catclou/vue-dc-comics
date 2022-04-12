@@ -9,7 +9,7 @@
 export default {
     name: 'ContentComp',
     components: {
-    // MainNavbarComp
+    // EventualeNomeComponenteInterna
     }
 }
 </script>

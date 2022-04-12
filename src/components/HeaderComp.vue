@@ -21,6 +21,12 @@ export default {
     header {
         display: flex;
         justify-content: space-around;
-        padding: 1rem;
+        padding-top: 1rem;
+    }
+
+    img {
+        height: 100px;
+        margin-bottom: 0;
+        padding-bottom: 1.2rem;
     }
 </style>

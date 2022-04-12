@@ -1,16 +1,16 @@
 <template>
     <nav>
         <ul>
-            <li>characters</li>
-            <li>comics</li>
-            <li>movies</li>
-            <li>tv</li>
-            <li>games</li>
-            <li>collectibles</li>
-            <li>videos</li>
-            <li>fans</li>
-            <li>news</li>
-            <li>shop</li>
+            <li> <a href="#">characters</a> </li>
+            <li> <a href="#">comics</a> </li>
+            <li> <a href="#">movies</a> </li>
+            <li> <a href="#">tv</a> </li>
+            <li> <a href="#">games</a> </li>
+            <li> <a href="#">collectibles</a> </li>
+            <li> <a href="#">videos</a> </li>
+            <li> <a href="#">fans</a> </li>
+            <li> <a href="#">news</a> </li>
+            <li> <a href="#">shop</a> </li>
         </ul>
     </nav>
 </template>
@@ -35,8 +35,18 @@ export default {
         align-self: center;
         text-transform: uppercase;
         font-weight: bold;
-        padding-bottom: 2rem;
-        /* aggiungere border-bottom e color blue all'hover */
-        /* border-bottom: 2px solid blue; */
+        
+        color: black;
+    }
+
+    a:hover {
+        color: #0282f9;
+        border-bottom: 5px inset #0282f9;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        padding-bottom: 4rem;
     }
 </style>
