@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <HeaderComp></HeaderComp>
+    <ContentComp></ContentComp>
     
   </div>
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
+import ContentComp from './components/ContentComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderComp
+    HeaderComp,
+    ContentComp
   }
 }
 </script>
@@ -24,5 +27,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 </style>

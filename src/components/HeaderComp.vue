@@ -21,7 +21,6 @@ export default {
     header {
         display: flex;
         justify-content: space-around;
-        border: 2px solid skyblue;
         padding: 1rem;
     }
 </style>

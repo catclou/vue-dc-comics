@@ -33,16 +33,10 @@ export default {
         padding: 1rem;
         list-style: none;
         align-self: center;
-        border: 1px solid yellowgreen;
         text-transform: uppercase;
         font-weight: bold;
         padding-bottom: 2rem;
         /* aggiungere border-bottom e color blue all'hover */
         /* border-bottom: 2px solid blue; */
-    }
-
-    nav {
-        border: 1px dotted green;
-        
     }
 </style>
