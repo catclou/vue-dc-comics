@@ -1,35 +1,40 @@
 <template>
     <footer>
-        <ListFooterComp/>
-        <img src="../assets/img/dc-logo-bg.png" alt="DC logo">
+        <button>sign-up now!</button>
+        <FollowUsComp/>
     </footer>
 </template>
 
 <script>
 
-// import MainNavbarComp from './MainNavbarComp.vue'
-import ListFooterComp from './ListFooterComp.vue'
+import FollowUsComp from './FollowUsComp.vue'
 
 export default {
     name: 'FooterComp',
     components: {
-    // MainNavbarComp
-        ListFooterComp,
+        FollowUsComp
     }
 }
 </script>
 
 <style scoped lang="scss">
+
+    @import '../style/variabili.scss';
+
     footer {
+        background-color: #303030;
         display: flex;
         justify-content: space-around;
-        padding-top: 1rem;
-        background-image: url('../assets/img/footer-bg.jpg');
+        padding: 25px;
     }
 
-    img {
-        margin: -5%;
-        height: 25rem;
+    button {
+        text-transform: uppercase;
+        background-color: transparent;
+        color: white;
+        border: 2px solid $dc-blue;
+        padding: 10px;
+        font-weight: 500;
     }
 
 </style>

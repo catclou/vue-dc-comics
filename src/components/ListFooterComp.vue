@@ -65,7 +65,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
     div {
         display: flex;
         margin: 10px;

@@ -3,6 +3,7 @@
     <HeaderComp/>
     <ContentComp/>
     <IconLinksComp/>
+    <LinksComp/>
     <FooterComp/>
   </div>
 </template>
@@ -11,6 +12,7 @@
 import HeaderComp from './components/HeaderComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import IconLinksComp from './components/IconLinksComp.vue'
+import LinksComp from './components/LinksComp.vue'
 import FooterComp from './components/FooterComp.vue'
 
 export default {
@@ -19,6 +21,7 @@ export default {
     HeaderComp,
     ContentComp,
     IconLinksComp,
+    LinksComp,
     FooterComp
   }
 }
