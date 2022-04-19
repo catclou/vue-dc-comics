@@ -13,9 +13,6 @@
 
 export default {
     name: 'FollowUsComp',
-    components: {
-    // EventualeNomeComponenteInterna
-    }
 }
 </script>
 

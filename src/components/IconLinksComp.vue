@@ -12,9 +12,6 @@
 
 export default {
     name: 'IconLinksComp',
-    components: {
-    // EventualeNomeComponenteInterna
-    }
 }
 </script>
 

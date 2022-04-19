@@ -41,11 +41,11 @@ export default {
     a {
         text-decoration: none;
         color: black;
-        padding-bottom: 4rem;
+        padding-bottom: 3.9rem;
 
         &:hover {
             color: #0282f9;
-            border-bottom: 5px inset #0282f9;
+            border-bottom: 4px inset #0282f9;
         }
     }
 </style>

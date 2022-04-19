@@ -59,9 +59,6 @@
 
 export default {
     name: 'ListFooterComp',
-    components: {
-    // EventualeNomeComponenteInterna
-    }
 }
 </script>
 

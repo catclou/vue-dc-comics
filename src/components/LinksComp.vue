@@ -7,13 +7,11 @@
 
 <script>
 
-// import MainNavbarComp from './MainNavbarComp.vue'
 import ListFooterComp from './ListFooterComp.vue'
 
 export default {
     name: 'LinksComp',
     components: {
-    // MainNavbarComp
         ListFooterComp,
     }
 }
